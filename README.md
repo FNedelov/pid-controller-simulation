@@ -1,5 +1,5 @@
 # pid-controller-simulation
-The folders contain a 2018 project that simulates a PID (proportional–integral–derivative) controller circuit
+The folders contain a 2018 project of mine that simulates a PID (proportional–integral–derivative) controller circuit
 
 Program operation:
 - The fan speed is monitored by an opto-gate. From the output signal of the optical gate, the current RPM value can be calculated, which I try to equate with the pre-set setpoint with PID control.
