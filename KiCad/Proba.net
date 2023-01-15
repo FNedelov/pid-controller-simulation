@@ -1,0 +1,44 @@
+(export (version D)
+  (design
+    (source C:\Skola\KiCad\Proba.sch)
+    (date "2018. 07. 09. 19:43:22")
+    (tool "Eeschema 4.0.7")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source Proba.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref U1)
+      (value Proba123)
+      (footprint Capacitors_SMD:CP_Elec_6.3x5.3)
+      (libsource (lib proba123) (part Proba123))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5B439B21)))
+  (libparts
+    (libpart (lib proba123) (part Proba123)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) Proba123))
+      (pins
+        (pin (num ~) (name 1) (type input)))))
+  (libraries
+    (library (logical proba123)
+      (uri C:\Skola\KiCad\proba123.lib)))
+  (nets
+    (net (code 2) (name "Net-(U1-Pad~)")
+      (node (ref U1) (pin ~)))
+    (net (code 3) (name "Net-(U1-Pad~)")
+      (node (ref U1) (pin ~)))
+    (net (code 4) (name "Net-(U1-Pad~)")
+      (node (ref U1) (pin ~)))
+    (net (code 5) (name "Net-(U1-Pad~)")
+      (node (ref U1) (pin ~)))
+    (net (code 6) (name "Net-(U1-Pad~)")
+      (node (ref U1) (pin ~)))))

@@ -1,0 +1,26 @@
+LabVIEW Measurement	
+Writer_Version	2
+Reader_Version	2
+Separator	Tab
+Decimal_Separator	.
+Multi_Headings	No
+X_Columns	No
+Time_Pref	Relative
+Operator	engineer
+Date	2018/07/19
+Time	13:12:16.7162275314331054688
+***End_of_Header***	
+	
+Channels	1	
+Samples	1	
+Date	2018/07/19	
+Time	13:12:17.0162275314331055132	
+X_Dimension	Time	
+X0	4.0000000000000002E-1	
+Delta_X	0.001000	
+***End_of_Header***		
+X_Value	Sine (Peak to Peak)	Comment
+	2.014460
+	1.970186
+	1.983677
+	1.988255
